@@ -1,0 +1,97 @@
+html,
+body {
+  font-family: "Papyrus";
+  font-size: 10px;
+  background: #000;
+}
+
+.heading {
+  text-align: center;
+  font-size: 4rem;
+  margin-bottom: 0.3em;
+}
+
+.form-section {
+  min-height: 95vh;
+  font-family: "Papyrus";
+  display: grid;
+  place-content: center;
+  color: #cfb53b;
+}
+
+.input-block {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 2em 0 0.5em;
+  color: #cfb53b;
+}
+
+.label {
+  font-family: "Papyrus";
+  letter-spacing: 0.25px;
+  font-weight: 500;
+  font-size: 2rem;
+  margin-bottom: 0.35em;
+  color: #cfb53b;
+}
+
+.requiredLabel {
+  font-weight: bold;
+  color: red;
+}
+
+.input {
+  padding: 1em 1em;
+  width: 350px;
+  outline: none;
+  border-radius: 0.25em;
+  border: 1px solid rgb(0, 0, 0);
+  background-color: #fff;
+}
+
+.warning-message {
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: #ff0000;
+}
+
+.wrong-input {
+  font-family: "Papyrus";
+  border: 2px solid #ff0000;
+  color: #ff0000;
+}
+
+.correct-input {
+  font-family: "Papyrus";
+  border: 2px solid #03bb56;
+  color: #03bb56;
+}
+
+/* hareketli button icin gerekli */
+.submit-button-wrapper {
+  display: flex;
+}
+
+.float {
+  justify-content: flex-end;
+}
+
+.submit-button {
+  margin-top: 2.75rem;
+  letter-spacing: 0.8px;
+  font-family: "Papyrus";
+  padding: 0.65em 2em;
+  border: none;
+  font-size: 1.5rem;
+  font-weight: 500;
+  border-radius: 15px;
+  background-color: #cfb53b;
+  color: rgb(0, 0, 0);
+}
+
+.button-success {
+  font-family: "Papyrus";
+  background-color: #00ff73;
+  color: rgb(0, 0, 0);
+}
